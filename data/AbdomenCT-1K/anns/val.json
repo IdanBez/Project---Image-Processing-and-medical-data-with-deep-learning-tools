@@ -1,0 +1,2900 @@
+[
+    {
+        "bbox": [
+            252,
+            367,
+            283,
+            385
+        ],
+        "cat": 0,
+        "segment_id": 801042,
+        "img_name": "Case_00801_042_liver.png",
+        "mask_name": "Case_00801_042_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 0,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            243,
+            365,
+            289,
+            388
+        ],
+        "cat": 0,
+        "segment_id": 801043,
+        "img_name": "Case_00801_043_liver.png",
+        "mask_name": "Case_00801_043_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 1,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            238,
+            362,
+            301,
+            393
+        ],
+        "cat": 0,
+        "segment_id": 801044,
+        "img_name": "Case_00801_044_liver.png",
+        "mask_name": "Case_00801_044_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 2,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            234,
+            361,
+            312,
+            397
+        ],
+        "cat": 0,
+        "segment_id": 801045,
+        "img_name": "Case_00801_045_liver.png",
+        "mask_name": "Case_00801_045_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 3,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            232,
+            361,
+            322,
+            402
+        ],
+        "cat": 0,
+        "segment_id": 801046,
+        "img_name": "Case_00801_046_liver.png",
+        "mask_name": "Case_00801_046_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 4,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            230,
+            359,
+            328,
+            407
+        ],
+        "cat": 0,
+        "segment_id": 801047,
+        "img_name": "Case_00801_047_liver.png",
+        "mask_name": "Case_00801_047_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 5,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            228,
+            284,
+            354,
+            407
+        ],
+        "cat": 0,
+        "segment_id": 801084,
+        "img_name": "Case_00801_084_liver.png",
+        "mask_name": "Case_00801_084_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 6,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            233,
+            295,
+            352,
+            398
+        ],
+        "cat": 0,
+        "segment_id": 801085,
+        "img_name": "Case_00801_085_liver.png",
+        "mask_name": "Case_00801_085_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 7,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            318,
+            311,
+            335,
+            325
+        ],
+        "cat": 0,
+        "segment_id": 801086,
+        "img_name": "Case_00801_086_liver.png",
+        "mask_name": "Case_00801_086_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 8,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            220,
+            116,
+            294,
+            202
+        ],
+        "cat": 0,
+        "segment_id": 802000,
+        "img_name": "Case_00802_000_kidney.png",
+        "mask_name": "Case_00802_000_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 9,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            218,
+            115,
+            295,
+            202
+        ],
+        "cat": 0,
+        "segment_id": 802001,
+        "img_name": "Case_00802_001_kidney.png",
+        "mask_name": "Case_00802_001_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 10,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            217,
+            113,
+            295,
+            388
+        ],
+        "cat": 0,
+        "segment_id": 802002,
+        "img_name": "Case_00802_002_kidney.png",
+        "mask_name": "Case_00802_002_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 11,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            216,
+            112,
+            296,
+            392
+        ],
+        "cat": 0,
+        "segment_id": 802003,
+        "img_name": "Case_00802_003_kidney.png",
+        "mask_name": "Case_00802_003_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 12,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            214,
+            109,
+            296,
+            394
+        ],
+        "cat": 0,
+        "segment_id": 802004,
+        "img_name": "Case_00802_004_kidney.png",
+        "mask_name": "Case_00802_004_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 13,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            213,
+            108,
+            296,
+            397
+        ],
+        "cat": 0,
+        "segment_id": 802005,
+        "img_name": "Case_00802_005_kidney.png",
+        "mask_name": "Case_00802_005_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 14,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            212,
+            107,
+            297,
+            401
+        ],
+        "cat": 0,
+        "segment_id": 802006,
+        "img_name": "Case_00802_006_kidney.png",
+        "mask_name": "Case_00802_006_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 15,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            211,
+            106,
+            297,
+            405
+        ],
+        "cat": 0,
+        "segment_id": 802007,
+        "img_name": "Case_00802_007_kidney.png",
+        "mask_name": "Case_00802_007_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 16,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            211,
+            105,
+            297,
+            406
+        ],
+        "cat": 0,
+        "segment_id": 802008,
+        "img_name": "Case_00802_008_kidney.png",
+        "mask_name": "Case_00802_008_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 17,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            210,
+            105,
+            296,
+            408
+        ],
+        "cat": 0,
+        "segment_id": 802009,
+        "img_name": "Case_00802_009_kidney.png",
+        "mask_name": "Case_00802_009_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 18,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            210,
+            105,
+            296,
+            409
+        ],
+        "cat": 0,
+        "segment_id": 802010,
+        "img_name": "Case_00802_010_kidney.png",
+        "mask_name": "Case_00802_010_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 19,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            209,
+            103,
+            296,
+            409
+        ],
+        "cat": 0,
+        "segment_id": 802011,
+        "img_name": "Case_00802_011_kidney.png",
+        "mask_name": "Case_00802_011_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 20,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            207,
+            101,
+            296,
+            410
+        ],
+        "cat": 0,
+        "segment_id": 802012,
+        "img_name": "Case_00802_012_kidney.png",
+        "mask_name": "Case_00802_012_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 21,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            205,
+            101,
+            297,
+            410
+        ],
+        "cat": 0,
+        "segment_id": 802013,
+        "img_name": "Case_00802_013_kidney.png",
+        "mask_name": "Case_00802_013_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 22,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            204,
+            100,
+            297,
+            410
+        ],
+        "cat": 0,
+        "segment_id": 802014,
+        "img_name": "Case_00802_014_kidney.png",
+        "mask_name": "Case_00802_014_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 23,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            203,
+            101,
+            297,
+            412
+        ],
+        "cat": 0,
+        "segment_id": 802015,
+        "img_name": "Case_00802_015_kidney.png",
+        "mask_name": "Case_00802_015_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 24,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            203,
+            101,
+            298,
+            414
+        ],
+        "cat": 0,
+        "segment_id": 802016,
+        "img_name": "Case_00802_016_kidney.png",
+        "mask_name": "Case_00802_016_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 25,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            202,
+            102,
+            298,
+            415
+        ],
+        "cat": 0,
+        "segment_id": 802017,
+        "img_name": "Case_00802_017_kidney.png",
+        "mask_name": "Case_00802_017_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 26,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            202,
+            102,
+            298,
+            416
+        ],
+        "cat": 0,
+        "segment_id": 802018,
+        "img_name": "Case_00802_018_kidney.png",
+        "mask_name": "Case_00802_018_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 27,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            202,
+            102,
+            298,
+            416
+        ],
+        "cat": 0,
+        "segment_id": 802019,
+        "img_name": "Case_00802_019_kidney.png",
+        "mask_name": "Case_00802_019_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 28,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            200,
+            102,
+            297,
+            416
+        ],
+        "cat": 0,
+        "segment_id": 802020,
+        "img_name": "Case_00802_020_kidney.png",
+        "mask_name": "Case_00802_020_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 29,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            199,
+            102,
+            297,
+            418
+        ],
+        "cat": 0,
+        "segment_id": 802021,
+        "img_name": "Case_00802_021_kidney.png",
+        "mask_name": "Case_00802_021_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 30,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            199,
+            103,
+            296,
+            418
+        ],
+        "cat": 0,
+        "segment_id": 802022,
+        "img_name": "Case_00802_022_kidney.png",
+        "mask_name": "Case_00802_022_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 31,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            198,
+            103,
+            296,
+            419
+        ],
+        "cat": 0,
+        "segment_id": 802023,
+        "img_name": "Case_00802_023_kidney.png",
+        "mask_name": "Case_00802_023_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 32,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            211,
+            168,
+            401,
+            423
+        ],
+        "cat": 0,
+        "segment_id": 802083,
+        "img_name": "Case_00802_083_liver.png",
+        "mask_name": "Case_00802_083_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 33,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            214,
+            170,
+            397,
+            421
+        ],
+        "cat": 0,
+        "segment_id": 802084,
+        "img_name": "Case_00802_084_liver.png",
+        "mask_name": "Case_00802_084_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 34,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            218,
+            179,
+            392,
+            419
+        ],
+        "cat": 0,
+        "segment_id": 802085,
+        "img_name": "Case_00802_085_liver.png",
+        "mask_name": "Case_00802_085_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 35,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            223,
+            211,
+            384,
+            417
+        ],
+        "cat": 0,
+        "segment_id": 802086,
+        "img_name": "Case_00802_086_liver.png",
+        "mask_name": "Case_00802_086_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 36,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            228,
+            227,
+            376,
+            416
+        ],
+        "cat": 0,
+        "segment_id": 802087,
+        "img_name": "Case_00802_087_liver.png",
+        "mask_name": "Case_00802_087_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 37,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            231,
+            250,
+            375,
+            415
+        ],
+        "cat": 0,
+        "segment_id": 802088,
+        "img_name": "Case_00802_088_liver.png",
+        "mask_name": "Case_00802_088_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 38,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            235,
+            267,
+            374,
+            413
+        ],
+        "cat": 0,
+        "segment_id": 802089,
+        "img_name": "Case_00802_089_liver.png",
+        "mask_name": "Case_00802_089_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 39,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            240,
+            272,
+            372,
+            411
+        ],
+        "cat": 0,
+        "segment_id": 802090,
+        "img_name": "Case_00802_090_liver.png",
+        "mask_name": "Case_00802_090_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 40,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            245,
+            275,
+            370,
+            409
+        ],
+        "cat": 0,
+        "segment_id": 802091,
+        "img_name": "Case_00802_091_liver.png",
+        "mask_name": "Case_00802_091_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 41,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            250,
+            281,
+            367,
+            406
+        ],
+        "cat": 0,
+        "segment_id": 802092,
+        "img_name": "Case_00802_092_liver.png",
+        "mask_name": "Case_00802_092_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 42,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            253,
+            285,
+            364,
+            404
+        ],
+        "cat": 0,
+        "segment_id": 802093,
+        "img_name": "Case_00802_093_liver.png",
+        "mask_name": "Case_00802_093_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 43,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            256,
+            290,
+            361,
+            401
+        ],
+        "cat": 0,
+        "segment_id": 802094,
+        "img_name": "Case_00802_094_liver.png",
+        "mask_name": "Case_00802_094_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 44,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            260,
+            294,
+            358,
+            398
+        ],
+        "cat": 0,
+        "segment_id": 802095,
+        "img_name": "Case_00802_095_liver.png",
+        "mask_name": "Case_00802_095_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 45,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            263,
+            299,
+            357,
+            395
+        ],
+        "cat": 0,
+        "segment_id": 802096,
+        "img_name": "Case_00802_096_liver.png",
+        "mask_name": "Case_00802_096_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 46,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            269,
+            305,
+            350,
+            390
+        ],
+        "cat": 0,
+        "segment_id": 802097,
+        "img_name": "Case_00802_097_liver.png",
+        "mask_name": "Case_00802_097_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 47,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            275,
+            310,
+            344,
+            385
+        ],
+        "cat": 0,
+        "segment_id": 802098,
+        "img_name": "Case_00802_098_liver.png",
+        "mask_name": "Case_00802_098_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 48,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            282,
+            313,
+            338,
+            377
+        ],
+        "cat": 0,
+        "segment_id": 802099,
+        "img_name": "Case_00802_099_liver.png",
+        "mask_name": "Case_00802_099_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 49,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            291,
+            320,
+            330,
+            366
+        ],
+        "cat": 0,
+        "segment_id": 802100,
+        "img_name": "Case_00802_100_liver.png",
+        "mask_name": "Case_00802_100_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 50,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            305,
+            331,
+            320,
+            344
+        ],
+        "cat": 0,
+        "segment_id": 802101,
+        "img_name": "Case_00802_101_liver.png",
+        "mask_name": "Case_00802_101_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 51,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            159,
+            309,
+            333,
+            437
+        ],
+        "cat": 0,
+        "segment_id": 803077,
+        "img_name": "Case_00803_077_liver.png",
+        "mask_name": "Case_00803_077_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 52,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            164,
+            313,
+            331,
+            427
+        ],
+        "cat": 0,
+        "segment_id": 803078,
+        "img_name": "Case_00803_078_liver.png",
+        "mask_name": "Case_00803_078_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 53,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            173,
+            321,
+            325,
+            418
+        ],
+        "cat": 0,
+        "segment_id": 803079,
+        "img_name": "Case_00803_079_liver.png",
+        "mask_name": "Case_00803_079_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 54,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            183,
+            329,
+            318,
+            410
+        ],
+        "cat": 0,
+        "segment_id": 803080,
+        "img_name": "Case_00803_080_liver.png",
+        "mask_name": "Case_00803_080_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 55,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            199,
+            340,
+            309,
+            396
+        ],
+        "cat": 0,
+        "segment_id": 803081,
+        "img_name": "Case_00803_081_liver.png",
+        "mask_name": "Case_00803_081_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 56,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            286,
+            363,
+            294,
+            378
+        ],
+        "cat": 0,
+        "segment_id": 803082,
+        "img_name": "Case_00803_082_liver.png",
+        "mask_name": "Case_00803_082_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 57,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            266,
+            395,
+            286,
+            404
+        ],
+        "cat": 0,
+        "segment_id": 804004,
+        "img_name": "Case_00804_004_liver.png",
+        "mask_name": "Case_00804_004_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 58,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            260,
+            390,
+            296,
+            408
+        ],
+        "cat": 0,
+        "segment_id": 804005,
+        "img_name": "Case_00804_005_liver.png",
+        "mask_name": "Case_00804_005_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 59,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            253,
+            384,
+            302,
+            411
+        ],
+        "cat": 0,
+        "segment_id": 804006,
+        "img_name": "Case_00804_006_liver.png",
+        "mask_name": "Case_00804_006_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 60,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            249,
+            381,
+            310,
+            412
+        ],
+        "cat": 0,
+        "segment_id": 804007,
+        "img_name": "Case_00804_007_liver.png",
+        "mask_name": "Case_00804_007_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 61,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            245,
+            377,
+            317,
+            413
+        ],
+        "cat": 0,
+        "segment_id": 804008,
+        "img_name": "Case_00804_008_liver.png",
+        "mask_name": "Case_00804_008_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 62,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            241,
+            374,
+            321,
+            414
+        ],
+        "cat": 0,
+        "segment_id": 804009,
+        "img_name": "Case_00804_009_liver.png",
+        "mask_name": "Case_00804_009_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 63,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            239,
+            372,
+            325,
+            415
+        ],
+        "cat": 0,
+        "segment_id": 804010,
+        "img_name": "Case_00804_010_liver.png",
+        "mask_name": "Case_00804_010_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 64,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            237,
+            369,
+            328,
+            416
+        ],
+        "cat": 0,
+        "segment_id": 804011,
+        "img_name": "Case_00804_011_liver.png",
+        "mask_name": "Case_00804_011_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 65,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            234,
+            366,
+            330,
+            416
+        ],
+        "cat": 0,
+        "segment_id": 804012,
+        "img_name": "Case_00804_012_liver.png",
+        "mask_name": "Case_00804_012_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 66,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            231,
+            365,
+            332,
+            417
+        ],
+        "cat": 0,
+        "segment_id": 804013,
+        "img_name": "Case_00804_013_liver.png",
+        "mask_name": "Case_00804_013_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 67,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            229,
+            362,
+            333,
+            418
+        ],
+        "cat": 0,
+        "segment_id": 804014,
+        "img_name": "Case_00804_014_liver.png",
+        "mask_name": "Case_00804_014_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 68,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            226,
+            361,
+            333,
+            418
+        ],
+        "cat": 0,
+        "segment_id": 804015,
+        "img_name": "Case_00804_015_liver.png",
+        "mask_name": "Case_00804_015_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 69,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            225,
+            359,
+            334,
+            419
+        ],
+        "cat": 0,
+        "segment_id": 804016,
+        "img_name": "Case_00804_016_liver.png",
+        "mask_name": "Case_00804_016_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 70,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            224,
+            358,
+            336,
+            419
+        ],
+        "cat": 0,
+        "segment_id": 804017,
+        "img_name": "Case_00804_017_liver.png",
+        "mask_name": "Case_00804_017_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 71,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            222,
+            355,
+            339,
+            419
+        ],
+        "cat": 0,
+        "segment_id": 804018,
+        "img_name": "Case_00804_018_liver.png",
+        "mask_name": "Case_00804_018_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 72,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            221,
+            354,
+            341,
+            419
+        ],
+        "cat": 0,
+        "segment_id": 804019,
+        "img_name": "Case_00804_019_liver.png",
+        "mask_name": "Case_00804_019_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 73,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            219,
+            352,
+            342,
+            420
+        ],
+        "cat": 0,
+        "segment_id": 804020,
+        "img_name": "Case_00804_020_liver.png",
+        "mask_name": "Case_00804_020_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 74,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            218,
+            350,
+            344,
+            420
+        ],
+        "cat": 0,
+        "segment_id": 804021,
+        "img_name": "Case_00804_021_liver.png",
+        "mask_name": "Case_00804_021_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 75,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            216,
+            349,
+            346,
+            420
+        ],
+        "cat": 0,
+        "segment_id": 804022,
+        "img_name": "Case_00804_022_liver.png",
+        "mask_name": "Case_00804_022_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 76,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            215,
+            348,
+            347,
+            420
+        ],
+        "cat": 0,
+        "segment_id": 804023,
+        "img_name": "Case_00804_023_liver.png",
+        "mask_name": "Case_00804_023_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 77,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            213,
+            347,
+            348,
+            421
+        ],
+        "cat": 0,
+        "segment_id": 804024,
+        "img_name": "Case_00804_024_liver.png",
+        "mask_name": "Case_00804_024_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 78,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            212,
+            347,
+            349,
+            421
+        ],
+        "cat": 0,
+        "segment_id": 804025,
+        "img_name": "Case_00804_025_liver.png",
+        "mask_name": "Case_00804_025_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 79,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            210,
+            347,
+            350,
+            422
+        ],
+        "cat": 0,
+        "segment_id": 804026,
+        "img_name": "Case_00804_026_liver.png",
+        "mask_name": "Case_00804_026_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 80,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            178,
+            194,
+            362,
+            442
+        ],
+        "cat": 0,
+        "segment_id": 804076,
+        "img_name": "Case_00804_076_liver.png",
+        "mask_name": "Case_00804_076_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 81,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            182,
+            202,
+            358,
+            438
+        ],
+        "cat": 0,
+        "segment_id": 804077,
+        "img_name": "Case_00804_077_liver.png",
+        "mask_name": "Case_00804_077_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 82,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            187,
+            211,
+            355,
+            434
+        ],
+        "cat": 0,
+        "segment_id": 804078,
+        "img_name": "Case_00804_078_liver.png",
+        "mask_name": "Case_00804_078_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 83,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            193,
+            227,
+            349,
+            428
+        ],
+        "cat": 0,
+        "segment_id": 804079,
+        "img_name": "Case_00804_079_liver.png",
+        "mask_name": "Case_00804_079_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 84,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            202,
+            273,
+            314,
+            422
+        ],
+        "cat": 0,
+        "segment_id": 804080,
+        "img_name": "Case_00804_080_liver.png",
+        "mask_name": "Case_00804_080_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 85,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            211,
+            340,
+            303,
+            417
+        ],
+        "cat": 0,
+        "segment_id": 804081,
+        "img_name": "Case_00804_081_liver.png",
+        "mask_name": "Case_00804_081_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 86,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            220,
+            346,
+            297,
+            412
+        ],
+        "cat": 0,
+        "segment_id": 804082,
+        "img_name": "Case_00804_082_liver.png",
+        "mask_name": "Case_00804_082_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 87,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            231,
+            352,
+            289,
+            406
+        ],
+        "cat": 0,
+        "segment_id": 804083,
+        "img_name": "Case_00804_083_liver.png",
+        "mask_name": "Case_00804_083_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 88,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            247,
+            367,
+            276,
+            385
+        ],
+        "cat": 0,
+        "segment_id": 804084,
+        "img_name": "Case_00804_084_liver.png",
+        "mask_name": "Case_00804_084_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 89,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            213,
+            135,
+            233,
+            161
+        ],
+        "cat": 0,
+        "segment_id": 805018,
+        "img_name": "Case_00805_018_kidney.png",
+        "mask_name": "Case_00805_018_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 90,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            201,
+            124,
+            240,
+            169
+        ],
+        "cat": 0,
+        "segment_id": 805019,
+        "img_name": "Case_00805_019_kidney.png",
+        "mask_name": "Case_00805_019_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 91,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            199,
+            120,
+            243,
+            174
+        ],
+        "cat": 0,
+        "segment_id": 805020,
+        "img_name": "Case_00805_020_kidney.png",
+        "mask_name": "Case_00805_020_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 92,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            195,
+            117,
+            245,
+            373
+        ],
+        "cat": 0,
+        "segment_id": 805021,
+        "img_name": "Case_00805_021_kidney.png",
+        "mask_name": "Case_00805_021_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 93,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            193,
+            108,
+            247,
+            392
+        ],
+        "cat": 0,
+        "segment_id": 805022,
+        "img_name": "Case_00805_022_kidney.png",
+        "mask_name": "Case_00805_022_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 94,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            187,
+            100,
+            255,
+            403
+        ],
+        "cat": 0,
+        "segment_id": 805024,
+        "img_name": "Case_00805_024_kidney.png",
+        "mask_name": "Case_00805_024_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 95,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            185,
+            99,
+            255,
+            405
+        ],
+        "cat": 0,
+        "segment_id": 805025,
+        "img_name": "Case_00805_025_kidney.png",
+        "mask_name": "Case_00805_025_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 96,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            184,
+            98,
+            255,
+            411
+        ],
+        "cat": 0,
+        "segment_id": 805026,
+        "img_name": "Case_00805_026_kidney.png",
+        "mask_name": "Case_00805_026_kidney.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 97,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the kidney in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            186,
+            276,
+            356,
+            440
+        ],
+        "cat": 0,
+        "segment_id": 805054,
+        "img_name": "Case_00805_054_liver.png",
+        "mask_name": "Case_00805_054_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 98,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            197,
+            287,
+            349,
+            435
+        ],
+        "cat": 0,
+        "segment_id": 805055,
+        "img_name": "Case_00805_055_liver.png",
+        "mask_name": "Case_00805_055_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 99,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            210,
+            299,
+            340,
+            428
+        ],
+        "cat": 0,
+        "segment_id": 805056,
+        "img_name": "Case_00805_056_liver.png",
+        "mask_name": "Case_00805_056_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 100,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            222,
+            312,
+            330,
+            419
+        ],
+        "cat": 0,
+        "segment_id": 805057,
+        "img_name": "Case_00805_057_liver.png",
+        "mask_name": "Case_00805_057_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 101,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            243,
+            328,
+            316,
+            409
+        ],
+        "cat": 0,
+        "segment_id": 805058,
+        "img_name": "Case_00805_058_liver.png",
+        "mask_name": "Case_00805_058_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 102,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            316,
+            410,
+            346,
+            435
+        ],
+        "cat": 0,
+        "segment_id": 806007,
+        "img_name": "Case_00806_007_liver.png",
+        "mask_name": "Case_00806_007_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 103,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            308,
+            403,
+            351,
+            439
+        ],
+        "cat": 0,
+        "segment_id": 806008,
+        "img_name": "Case_00806_008_liver.png",
+        "mask_name": "Case_00806_008_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 104,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            294,
+            398,
+            355,
+            445
+        ],
+        "cat": 0,
+        "segment_id": 806009,
+        "img_name": "Case_00806_009_liver.png",
+        "mask_name": "Case_00806_009_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 105,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            208,
+            154,
+            405,
+            439
+        ],
+        "cat": 0,
+        "segment_id": 806061,
+        "img_name": "Case_00806_061_liver.png",
+        "mask_name": "Case_00806_061_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 106,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            220,
+            159,
+            401,
+            434
+        ],
+        "cat": 0,
+        "segment_id": 806062,
+        "img_name": "Case_00806_062_liver.png",
+        "mask_name": "Case_00806_062_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 107,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            232,
+            162,
+            397,
+            428
+        ],
+        "cat": 0,
+        "segment_id": 806063,
+        "img_name": "Case_00806_063_liver.png",
+        "mask_name": "Case_00806_063_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 108,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            242,
+            167,
+            389,
+            420
+        ],
+        "cat": 0,
+        "segment_id": 806064,
+        "img_name": "Case_00806_064_liver.png",
+        "mask_name": "Case_00806_064_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 109,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            252,
+            183,
+            379,
+            412
+        ],
+        "cat": 0,
+        "segment_id": 806065,
+        "img_name": "Case_00806_065_liver.png",
+        "mask_name": "Case_00806_065_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 110,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            264,
+            198,
+            363,
+            396
+        ],
+        "cat": 0,
+        "segment_id": 806066,
+        "img_name": "Case_00806_066_liver.png",
+        "mask_name": "Case_00806_066_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 111,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            288,
+            267,
+            348,
+            366
+        ],
+        "cat": 0,
+        "segment_id": 806067,
+        "img_name": "Case_00806_067_liver.png",
+        "mask_name": "Case_00806_067_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 112,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            214,
+            352,
+            229,
+            366
+        ],
+        "cat": 0,
+        "segment_id": 807013,
+        "img_name": "Case_00807_013_liver.png",
+        "mask_name": "Case_00807_013_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 113,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            205,
+            337,
+            244,
+            373
+        ],
+        "cat": 0,
+        "segment_id": 807015,
+        "img_name": "Case_00807_015_liver.png",
+        "mask_name": "Case_00807_015_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 114,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            203,
+            334,
+            249,
+            374
+        ],
+        "cat": 0,
+        "segment_id": 807017,
+        "img_name": "Case_00807_017_liver.png",
+        "mask_name": "Case_00807_017_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 115,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            202,
+            333,
+            253,
+            374
+        ],
+        "cat": 0,
+        "segment_id": 807018,
+        "img_name": "Case_00807_018_liver.png",
+        "mask_name": "Case_00807_018_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 116,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            189,
+            278,
+            319,
+            388
+        ],
+        "cat": 0,
+        "segment_id": 807070,
+        "img_name": "Case_00807_070_liver.png",
+        "mask_name": "Case_00807_070_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 117,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            193,
+            286,
+            315,
+            387
+        ],
+        "cat": 0,
+        "segment_id": 807071,
+        "img_name": "Case_00807_071_liver.png",
+        "mask_name": "Case_00807_071_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 118,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            197,
+            293,
+            313,
+            385
+        ],
+        "cat": 0,
+        "segment_id": 807072,
+        "img_name": "Case_00807_072_liver.png",
+        "mask_name": "Case_00807_072_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 119,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            200,
+            297,
+            311,
+            383
+        ],
+        "cat": 0,
+        "segment_id": 807073,
+        "img_name": "Case_00807_073_liver.png",
+        "mask_name": "Case_00807_073_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 120,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            205,
+            303,
+            308,
+            380
+        ],
+        "cat": 0,
+        "segment_id": 807074,
+        "img_name": "Case_00807_074_liver.png",
+        "mask_name": "Case_00807_074_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 121,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            211,
+            310,
+            302,
+            376
+        ],
+        "cat": 0,
+        "segment_id": 807075,
+        "img_name": "Case_00807_075_liver.png",
+        "mask_name": "Case_00807_075_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 122,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            218,
+            317,
+            295,
+            371
+        ],
+        "cat": 0,
+        "segment_id": 807076,
+        "img_name": "Case_00807_076_liver.png",
+        "mask_name": "Case_00807_076_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 123,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            228,
+            324,
+            285,
+            367
+        ],
+        "cat": 0,
+        "segment_id": 807077,
+        "img_name": "Case_00807_077_liver.png",
+        "mask_name": "Case_00807_077_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 124,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    },
+    {
+        "bbox": [
+            248,
+            338,
+            269,
+            356
+        ],
+        "cat": 0,
+        "segment_id": 807078,
+        "img_name": "Case_00807_078_liver.png",
+        "mask_name": "Case_00807_078_liver.png",
+        "sentences": [
+            {
+                "idx": 0,
+                "sent_id": 125,
+                "sent": ""
+            }
+        ],
+        "prompts": {
+            "p4": "Segment the liver in the abdominal region "
+        },
+        "sentences_num": 1
+    }
+]
