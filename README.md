@@ -12,7 +12,8 @@ BiomedCLIP: https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_
 CLIPSeg: https://huggingface.co/CIDAS/clipseg-rd64-refined
 
 ### CRIS
-The Resnet50 vision-encoder of CLIP is needed for CRIS can be downloaded from: https://polimi365-my.sharepoint.com/:f:/g/personal/10524166_polimi_it/Ej-lkQiFHU1ArDG68PP-u3kBJL_UBvvn1scRU7Ps5fiIOw?e=KzFowg
+We have used the model from: https://polimi365-my.sharepoint.com/:f:/g/personal/10524166_polimi_it/Ej-lkQiFHU1ArDG68PP-u3kBJL_UBvvn1scRU7Ps5fiIOw?e=KzFowg
+(The Resnet50 vision-encoder of CLIP too)
 
 
 ## Dataset Preparation
