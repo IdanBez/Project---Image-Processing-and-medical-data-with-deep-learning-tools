@@ -1,0 +1,153 @@
+[2024-09-01 11:29:15,512][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-09-01 11:29:15,525][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-09-01 11:29:15,803][__main__][INFO] - Instantiating datamodule <src.datamodules.BaseDataModule>
+[2024-09-01 11:29:19,590][__main__][INFO] - Instantiating model <src.models.BaseModule>
+[2024-09-01 11:29:54,184][__main__][INFO] - Instantiating loggers...
+[2024-09-01 11:29:54,199][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2024-09-01 11:29:57,454][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\pytorch_lightning\loggers\wandb.py", line 357, in __init__
+    _ = self.experiment
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_fabric\loggers\logger.py", line 117, in experiment
+    return get_experiment() or _DummyExperiment()
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_utilities\core\rank_zero.py", line 27, in wrapped_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_fabric\loggers\logger.py", line 115, in get_experiment
+    return fn(self)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\pytorch_lightning\loggers\wandb.py", line 405, in experiment
+    self._experiment = wandb.init(**self._wandb_init)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 1189, in init
+    raise e
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 308, in setup
+    wandb_login._login(
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_login.py", line 298, in _login
+    wlogin.prompt_api_key()
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_login.py", line 228, in prompt_api_key
+    raise UsageError("api_key not configured (no-tty). call " + directive)
+wandb.errors.UsageError: api_key not configured (no-tty). call wandb.login(key=[your_api_key])
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\src\utils\utils.py", line 38, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\scripts\src\eval.py", line 87, in evaluate
+    logger: List[Logger] = utils.instantiate_loggers(cfg.get("logger"))
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\src\utils\utils.py", line 129, in instantiate_loggers
+    logger.append(hydra.utils.instantiate(lg_conf))
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'pytorch_lightning.loggers.wandb.WandbLogger':
+UsageError('api_key not configured (no-tty). call wandb.login(key=[your_api_key])')
+full_key: logger.wandb
+[2024-09-01 11:29:57,471][src.utils.utils][INFO] - Closing loggers...
+[2024-09-01 11:34:32,871][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-09-01 11:34:32,882][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-09-01 11:34:33,153][__main__][INFO] - Instantiating datamodule <src.datamodules.BaseDataModule>
+[2024-09-01 11:34:34,978][__main__][INFO] - Instantiating model <src.models.BaseModule>
+[2024-09-01 11:34:45,659][__main__][INFO] - Instantiating loggers...
+[2024-09-01 11:34:45,659][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2024-09-01 11:34:48,036][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\pytorch_lightning\loggers\wandb.py", line 357, in __init__
+    _ = self.experiment
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_fabric\loggers\logger.py", line 117, in experiment
+    return get_experiment() or _DummyExperiment()
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_utilities\core\rank_zero.py", line 27, in wrapped_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_fabric\loggers\logger.py", line 115, in get_experiment
+    return fn(self)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\pytorch_lightning\loggers\wandb.py", line 405, in experiment
+    self._experiment = wandb.init(**self._wandb_init)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 1189, in init
+    raise e
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 308, in setup
+    wandb_login._login(
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_login.py", line 298, in _login
+    wlogin.prompt_api_key()
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_login.py", line 228, in prompt_api_key
+    raise UsageError("api_key not configured (no-tty). call " + directive)
+wandb.errors.UsageError: api_key not configured (no-tty). call wandb.login(key=[your_api_key])
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\src\utils\utils.py", line 38, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\scripts\src\eval.py", line 87, in evaluate
+    logger: List[Logger] = utils.instantiate_loggers(cfg.get("logger"))
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\src\utils\utils.py", line 129, in instantiate_loggers
+    logger.append(hydra.utils.instantiate(lg_conf))
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'pytorch_lightning.loggers.wandb.WandbLogger':
+UsageError('api_key not configured (no-tty). call wandb.login(key=[your_api_key])')
+full_key: logger.wandb
+[2024-09-01 11:34:48,048][src.utils.utils][INFO] - Closing loggers...
+[2024-09-01 11:48:08,523][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-09-01 11:48:08,535][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-09-01 11:48:08,804][__main__][INFO] - Instantiating datamodule <src.datamodules.BaseDataModule>
+[2024-09-01 11:48:10,579][__main__][INFO] - Instantiating model <src.models.BaseModule>
+[2024-09-01 11:48:20,003][__main__][INFO] - Instantiating loggers...
+[2024-09-01 11:48:20,004][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2024-09-01 11:48:22,288][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\pytorch_lightning\loggers\wandb.py", line 357, in __init__
+    _ = self.experiment
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_fabric\loggers\logger.py", line 117, in experiment
+    return get_experiment() or _DummyExperiment()
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_utilities\core\rank_zero.py", line 27, in wrapped_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\lightning_fabric\loggers\logger.py", line 115, in get_experiment
+    return fn(self)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\pytorch_lightning\loggers\wandb.py", line 405, in experiment
+    self._experiment = wandb.init(**self._wandb_init)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 1189, in init
+    raise e
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 1166, in init
+    wi.setup(kwargs)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_init.py", line 308, in setup
+    wandb_login._login(
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_login.py", line 298, in _login
+    wlogin.prompt_api_key()
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\wandb\sdk\wandb_login.py", line 228, in prompt_api_key
+    raise UsageError("api_key not configured (no-tty). call " + directive)
+wandb.errors.UsageError: api_key not configured (no-tty). call wandb.login(key=[your_api_key])
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\src\utils\utils.py", line 38, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\scripts\src\eval.py", line 87, in evaluate
+    logger: List[Logger] = utils.instantiate_loggers(cfg.get("logger"))
+  File "C:\Idan\Courses\Medical Data in Deep Learning\Seminar and Project\Project\medvlsm-main\src\utils\utils.py", line 129, in instantiate_loggers
+    logger.append(hydra.utils.instantiate(lg_conf))
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\Omer\anaconda3\envs\medical_project\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'pytorch_lightning.loggers.wandb.WandbLogger':
+UsageError('api_key not configured (no-tty). call wandb.login(key=[your_api_key])')
+full_key: logger.wandb
+[2024-09-01 11:48:22,299][src.utils.utils][INFO] - Closing loggers...
