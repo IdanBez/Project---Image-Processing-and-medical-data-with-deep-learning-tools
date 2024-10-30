@@ -8,13 +8,12 @@ This project explores medical image segmentation and proposes a framework called
 
 ### BiomedCLIP and CLIPSeg
 pretrained weights are readily available in the Hugging Face Model Hub
-BiomedCLIP: https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
-CLIPSeg: https://huggingface.co/CIDAS/clipseg-rd64-refined
+- BiomedCLIP: https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224
+- CLIPSeg: https://huggingface.co/CIDAS/clipseg-rd64-refined
 
 ### CRIS
-We have used the model from: https://polimi365-my.sharepoint.com/:f:/g/personal/10524166_polimi_it/Ej-lkQiFHU1ArDG68PP-u3kBJL_UBvvn1scRU7Ps5fiIOw?e=KzFowg
-(The Resnet50 vision-encoder of CLIP too)
-
+We have used the Pretrained Model from:
+- https://polimi365-my.sharepoint.com/:f:/g/personal/10524166_polimi_it/Ej-lkQiFHU1ArDG68PP-u3kBJL_UBvvn1scRU7Ps5fiIOw?e=KzFowg
 
 ## Dataset Preparation
 
@@ -31,6 +30,10 @@ For instance, prompts followed patterns like:
 - https://drive.google.com/drive/folders/10QXjxBJqCf7PAXqbDvoceWmZ-qF07tFi
 - http://vi.cvc.uab.es/colon-qa/cvccolondb/
 - https://www.kaggle.com/datasets/balraj98/cvcclinicdb
+
+## Methods
+
+We initially aimed to modify the CRIS model by replacing its Vision and Text Encoders with BiomedCLIP encoders. However, due to architectural compatibility issues, the team developed two alternative approaches: finetuning the existing CRIS model and creating a new architecture by adding a decoder to BiomedCLIP, which was pretrained on medical image-text pairs. This resulted in the BiomedCLIPSeg-D model, which uses a pretrained CLIPSeg decoder. The model processes triplets consisting of a medical image, a segmentation mask, and a text prompt. While CLIPSeg can work with both CNN and Vision Transformer (ViT) backbones, CRIS is limited to CNN-based CLIP backbones. The new BiomedCLIPSeg-based models utilize transformer-based backbones for their encoders.
 
 ## Test and Finetuning
 
