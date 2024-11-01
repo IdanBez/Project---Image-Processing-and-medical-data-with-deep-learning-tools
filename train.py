@@ -9,7 +9,6 @@ import torchvision.transforms.functional as TF
 from omegaconf import DictConfig
 from pytorch_lightning import Callback, LightningDataModule, LightningModule, Trainer
 from pytorch_lightning.loggers.logger import Logger
-
 from src import utils
 
 torch.set_float32_matmul_precision("medium")
