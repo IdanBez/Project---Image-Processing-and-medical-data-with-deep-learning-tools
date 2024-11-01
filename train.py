@@ -1,7 +1,6 @@
 import pyrootutils
 import os
 from typing import List, Optional, Tuple
-
 import hydra
 import pytorch_lightning as pl
 import torch
