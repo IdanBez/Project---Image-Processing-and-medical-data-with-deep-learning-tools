@@ -1,0 +1,758 @@
+[
+  {
+    "image_name": "Case_00801_042_liver.png",
+    "mask_name": "Case_00801_042_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00801_043_liver.png",
+    "mask_name": "Case_00801_043_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00801_044_liver.png",
+    "mask_name": "Case_00801_044_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00801_045_liver.png",
+    "mask_name": "Case_00801_045_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00801_046_liver.png",
+    "mask_name": "Case_00801_046_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00801_047_liver.png",
+    "mask_name": "Case_00801_047_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00801_084_liver.png",
+    "mask_name": "Case_00801_084_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00801_085_liver.png",
+    "mask_name": "Case_00801_085_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00801_086_liver.png",
+    "mask_name": "Case_00801_086_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_000_kidney.png",
+    "mask_name": "Case_00802_000_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_001_kidney.png",
+    "mask_name": "Case_00802_001_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_002_kidney.png",
+    "mask_name": "Case_00802_002_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_003_kidney.png",
+    "mask_name": "Case_00802_003_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_004_kidney.png",
+    "mask_name": "Case_00802_004_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_005_kidney.png",
+    "mask_name": "Case_00802_005_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_006_kidney.png",
+    "mask_name": "Case_00802_006_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_007_kidney.png",
+    "mask_name": "Case_00802_007_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_008_kidney.png",
+    "mask_name": "Case_00802_008_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_009_kidney.png",
+    "mask_name": "Case_00802_009_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_010_kidney.png",
+    "mask_name": "Case_00802_010_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_011_kidney.png",
+    "mask_name": "Case_00802_011_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_012_kidney.png",
+    "mask_name": "Case_00802_012_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_013_kidney.png",
+    "mask_name": "Case_00802_013_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_014_kidney.png",
+    "mask_name": "Case_00802_014_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_015_kidney.png",
+    "mask_name": "Case_00802_015_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_016_kidney.png",
+    "mask_name": "Case_00802_016_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_017_kidney.png",
+    "mask_name": "Case_00802_017_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_018_kidney.png",
+    "mask_name": "Case_00802_018_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_019_kidney.png",
+    "mask_name": "Case_00802_019_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_020_kidney.png",
+    "mask_name": "Case_00802_020_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_021_kidney.png",
+    "mask_name": "Case_00802_021_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_022_kidney.png",
+    "mask_name": "Case_00802_022_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_023_kidney.png",
+    "mask_name": "Case_00802_023_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00802_083_liver.png",
+    "mask_name": "Case_00802_083_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_084_liver.png",
+    "mask_name": "Case_00802_084_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_085_liver.png",
+    "mask_name": "Case_00802_085_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_086_liver.png",
+    "mask_name": "Case_00802_086_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_087_liver.png",
+    "mask_name": "Case_00802_087_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_088_liver.png",
+    "mask_name": "Case_00802_088_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_089_liver.png",
+    "mask_name": "Case_00802_089_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_090_liver.png",
+    "mask_name": "Case_00802_090_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_091_liver.png",
+    "mask_name": "Case_00802_091_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_092_liver.png",
+    "mask_name": "Case_00802_092_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_093_liver.png",
+    "mask_name": "Case_00802_093_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_094_liver.png",
+    "mask_name": "Case_00802_094_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_095_liver.png",
+    "mask_name": "Case_00802_095_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_096_liver.png",
+    "mask_name": "Case_00802_096_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_097_liver.png",
+    "mask_name": "Case_00802_097_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_098_liver.png",
+    "mask_name": "Case_00802_098_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_099_liver.png",
+    "mask_name": "Case_00802_099_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_100_liver.png",
+    "mask_name": "Case_00802_100_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00802_101_liver.png",
+    "mask_name": "Case_00802_101_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00803_077_liver.png",
+    "mask_name": "Case_00803_077_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00803_078_liver.png",
+    "mask_name": "Case_00803_078_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00803_079_liver.png",
+    "mask_name": "Case_00803_079_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00803_080_liver.png",
+    "mask_name": "Case_00803_080_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00803_081_liver.png",
+    "mask_name": "Case_00803_081_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00803_082_liver.png",
+    "mask_name": "Case_00803_082_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_004_liver.png",
+    "mask_name": "Case_00804_004_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_005_liver.png",
+    "mask_name": "Case_00804_005_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_006_liver.png",
+    "mask_name": "Case_00804_006_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_007_liver.png",
+    "mask_name": "Case_00804_007_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_008_liver.png",
+    "mask_name": "Case_00804_008_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_009_liver.png",
+    "mask_name": "Case_00804_009_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_010_liver.png",
+    "mask_name": "Case_00804_010_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_011_liver.png",
+    "mask_name": "Case_00804_011_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_012_liver.png",
+    "mask_name": "Case_00804_012_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_013_liver.png",
+    "mask_name": "Case_00804_013_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_014_liver.png",
+    "mask_name": "Case_00804_014_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_015_liver.png",
+    "mask_name": "Case_00804_015_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_016_liver.png",
+    "mask_name": "Case_00804_016_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_017_liver.png",
+    "mask_name": "Case_00804_017_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_018_liver.png",
+    "mask_name": "Case_00804_018_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_019_liver.png",
+    "mask_name": "Case_00804_019_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_020_liver.png",
+    "mask_name": "Case_00804_020_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_021_liver.png",
+    "mask_name": "Case_00804_021_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_022_liver.png",
+    "mask_name": "Case_00804_022_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_023_liver.png",
+    "mask_name": "Case_00804_023_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_024_liver.png",
+    "mask_name": "Case_00804_024_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_025_liver.png",
+    "mask_name": "Case_00804_025_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_026_liver.png",
+    "mask_name": "Case_00804_026_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_076_liver.png",
+    "mask_name": "Case_00804_076_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_077_liver.png",
+    "mask_name": "Case_00804_077_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_078_liver.png",
+    "mask_name": "Case_00804_078_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_079_liver.png",
+    "mask_name": "Case_00804_079_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_080_liver.png",
+    "mask_name": "Case_00804_080_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_081_liver.png",
+    "mask_name": "Case_00804_081_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_082_liver.png",
+    "mask_name": "Case_00804_082_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_083_liver.png",
+    "mask_name": "Case_00804_083_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00804_084_liver.png",
+    "mask_name": "Case_00804_084_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00805_018_kidney.png",
+    "mask_name": "Case_00805_018_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00805_019_kidney.png",
+    "mask_name": "Case_00805_019_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00805_020_kidney.png",
+    "mask_name": "Case_00805_020_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00805_021_kidney.png",
+    "mask_name": "Case_00805_021_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00805_022_kidney.png",
+    "mask_name": "Case_00805_022_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00805_024_kidney.png",
+    "mask_name": "Case_00805_024_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00805_025_kidney.png",
+    "mask_name": "Case_00805_025_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00805_026_kidney.png",
+    "mask_name": "Case_00805_026_kidney.png",
+    "prompt": "Segment the kidney in the abdominal region ",
+    "label": "kidney"
+  },
+  {
+    "image_name": "Case_00805_054_liver.png",
+    "mask_name": "Case_00805_054_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00805_055_liver.png",
+    "mask_name": "Case_00805_055_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00805_056_liver.png",
+    "mask_name": "Case_00805_056_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00805_057_liver.png",
+    "mask_name": "Case_00805_057_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00805_058_liver.png",
+    "mask_name": "Case_00805_058_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_007_liver.png",
+    "mask_name": "Case_00806_007_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_008_liver.png",
+    "mask_name": "Case_00806_008_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_009_liver.png",
+    "mask_name": "Case_00806_009_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_061_liver.png",
+    "mask_name": "Case_00806_061_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_062_liver.png",
+    "mask_name": "Case_00806_062_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_063_liver.png",
+    "mask_name": "Case_00806_063_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_064_liver.png",
+    "mask_name": "Case_00806_064_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_065_liver.png",
+    "mask_name": "Case_00806_065_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_066_liver.png",
+    "mask_name": "Case_00806_066_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00806_067_liver.png",
+    "mask_name": "Case_00806_067_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_013_liver.png",
+    "mask_name": "Case_00807_013_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_015_liver.png",
+    "mask_name": "Case_00807_015_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_017_liver.png",
+    "mask_name": "Case_00807_017_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_018_liver.png",
+    "mask_name": "Case_00807_018_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_070_liver.png",
+    "mask_name": "Case_00807_070_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_071_liver.png",
+    "mask_name": "Case_00807_071_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_072_liver.png",
+    "mask_name": "Case_00807_072_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_073_liver.png",
+    "mask_name": "Case_00807_073_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_074_liver.png",
+    "mask_name": "Case_00807_074_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_075_liver.png",
+    "mask_name": "Case_00807_075_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_076_liver.png",
+    "mask_name": "Case_00807_076_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_077_liver.png",
+    "mask_name": "Case_00807_077_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  },
+  {
+    "image_name": "Case_00807_078_liver.png",
+    "mask_name": "Case_00807_078_liver.png",
+    "prompt": "Segment the liver in the abdominal region ",
+    "label": "liver"
+  }
+]

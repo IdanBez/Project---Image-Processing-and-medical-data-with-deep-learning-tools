@@ -1,0 +1,976 @@
+[
+    [
+        "Colonoscopy images/Images/0081835cf877e004e8bfb905b78a9139.jpeg",
+        "Colonoscopy images/Masks/0081835cf877e004e8bfb905b78a9139.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/00d827b8bcf15050fb9af0ef92846b60.jpeg",
+        "Colonoscopy images/Masks/00d827b8bcf15050fb9af0ef92846b60.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/00f9b6c911c4aa179344271fa54aa1b2.jpeg",
+        "Colonoscopy images/Masks/00f9b6c911c4aa179344271fa54aa1b2.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/00fd197cd955fa095f978455cef3593c.jpeg",
+        "Colonoscopy images/Masks/00fd197cd955fa095f978455cef3593c.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/01c13a3d810b000db55759486b8aa1b8.jpeg",
+        "Colonoscopy images/Masks/01c13a3d810b000db55759486b8aa1b8.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/01e80947f9c02314fc58bdb26679bff5.jpeg",
+        "Colonoscopy images/Masks/01e80947f9c02314fc58bdb26679bff5.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/01ff069910ea2abe3c84417fda801941.jpeg",
+        "Colonoscopy images/Masks/01ff069910ea2abe3c84417fda801941.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/02000f9b6c911c4aa179344271fa54aa.jpeg",
+        "Colonoscopy images/Masks/02000f9b6c911c4aa179344271fa54aa.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/021bab9fc7330398846f67b5df7cdf3f.jpeg",
+        "Colonoscopy images/Masks/021bab9fc7330398846f67b5df7cdf3f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/02345d341253851bc866ebe4d18d5401.jpeg",
+        "Colonoscopy images/Masks/02345d341253851bc866ebe4d18d5401.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/025ba0e3b6d0bf0b5633059989805234.jpeg",
+        "Colonoscopy images/Masks/025ba0e3b6d0bf0b5633059989805234.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/02b296cc5cfd263f1f90be2879923502.jpeg",
+        "Colonoscopy images/Masks/02b296cc5cfd263f1f90be2879923502.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0317371a966bf4b3466463a3c64db170.jpeg",
+        "Colonoscopy images/Masks/0317371a966bf4b3466463a3c64db170.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/033c03b0af70cc0f6d32b726342865f6.jpeg",
+        "Colonoscopy images/Masks/033c03b0af70cc0f6d32b726342865f6.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0351267e98bd886544a2a98ee309ce76.jpeg",
+        "Colonoscopy images/Masks/0351267e98bd886544a2a98ee309ce76.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/03983064a3eb4d49033c03b0af70cc0f.jpeg",
+        "Colonoscopy images/Masks/03983064a3eb4d49033c03b0af70cc0f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/03d2cbbcfa4baf3866269959350e7998.jpeg",
+        "Colonoscopy images/Masks/03d2cbbcfa4baf3866269959350e7998.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/03f909df7cd066b37f538abe9de67869.jpeg",
+        "Colonoscopy images/Masks/03f909df7cd066b37f538abe9de67869.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/040781d54ffd6a8ee924dbd70f618d52.jpeg",
+        "Colonoscopy images/Masks/040781d54ffd6a8ee924dbd70f618d52.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/04414eaa922bca73d5379c7c851a5082.jpeg",
+        "Colonoscopy images/Masks/04414eaa922bca73d5379c7c851a5082.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0449922d6157edc3d82df22c41b503dc.jpeg",
+        "Colonoscopy images/Masks/0449922d6157edc3d82df22c41b503dc.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0449ad43fe2cd066b9fdbc3bbc04a3af.jpeg",
+        "Colonoscopy images/Masks/0449ad43fe2cd066b9fdbc3bbc04a3af.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/047dc0cbb58aa032554b5eb4fcf0130a.jpeg",
+        "Colonoscopy images/Masks/047dc0cbb58aa032554b5eb4fcf0130a.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/04801b37705c1e555525d4f09ce7270b.jpeg",
+        "Colonoscopy images/Masks/04801b37705c1e555525d4f09ce7270b.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0496b83ef461c2a337948a41964c1d4f.jpeg",
+        "Colonoscopy images/Masks/0496b83ef461c2a337948a41964c1d4f.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/04c34a359bbb402345d341253851bc86.jpeg",
+        "Colonoscopy images/Masks/04c34a359bbb402345d341253851bc86.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/04ccdc265a0b0a1230b118fa8625605d.jpeg",
+        "Colonoscopy images/Masks/04ccdc265a0b0a1230b118fa8625605d.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/04f234b701fc691ffa02f6068b683019.jpeg",
+        "Colonoscopy images/Masks/04f234b701fc691ffa02f6068b683019.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/051fc90e85d064f787d4be168d951058.jpeg",
+        "Colonoscopy images/Masks/051fc90e85d064f787d4be168d951058.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/052600f1f93e952886d1697f8af9b550.jpeg",
+        "Colonoscopy images/Masks/052600f1f93e952886d1697f8af9b550.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0528810e9d05be942fd5dd0902e0db22.jpeg",
+        "Colonoscopy images/Masks/0528810e9d05be942fd5dd0902e0db22.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/054d694539ef2424a9218697283baa36.jpeg",
+        "Colonoscopy images/Masks/054d694539ef2424a9218697283baa36.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0676289b3e732adb4c5d1580670d78b9.jpeg",
+        "Colonoscopy images/Masks/0676289b3e732adb4c5d1580670d78b9.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/069910ea2abe3c84417fda8019410b1f.jpeg",
+        "Colonoscopy images/Masks/069910ea2abe3c84417fda8019410b1f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/06cb09d1fc6869d7b4193425b976973f.jpeg",
+        "Colonoscopy images/Masks/06cb09d1fc6869d7b4193425b976973f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/076135d76d0bbd4ce2a1405f7d507592.jpeg",
+        "Colonoscopy images/Masks/076135d76d0bbd4ce2a1405f7d507592.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/077bad31c8c5f54ffaa27a623511c389.jpeg",
+        "Colonoscopy images/Masks/077bad31c8c5f54ffaa27a623511c389.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/07907941a8490fd7df8e26031fbb5e52.jpeg",
+        "Colonoscopy images/Masks/07907941a8490fd7df8e26031fbb5e52.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/081835cf877e004e8bfb905b78a91391.jpeg",
+        "Colonoscopy images/Masks/081835cf877e004e8bfb905b78a91391.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/085835c525af63a987f428c953248704.jpeg",
+        "Colonoscopy images/Masks/085835c525af63a987f428c953248704.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/08cc3736e216b08d237285e26c90e179.jpeg",
+        "Colonoscopy images/Masks/08cc3736e216b08d237285e26c90e179.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/08d237285e26c90e1797c77826f9a702.jpeg",
+        "Colonoscopy images/Masks/08d237285e26c90e1797c77826f9a702.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/09384b57bb6a052600f1f93e952886d1.jpeg",
+        "Colonoscopy images/Masks/09384b57bb6a052600f1f93e952886d1.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/09817287a8aef566999467c2a48847ae.jpeg",
+        "Colonoscopy images/Masks/09817287a8aef566999467c2a48847ae.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/099130d98309817287a8aef566999467.jpeg",
+        "Colonoscopy images/Masks/099130d98309817287a8aef566999467.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/09d1dff09b8405734fbeedd0f9da760d.jpeg",
+        "Colonoscopy images/Masks/09d1dff09b8405734fbeedd0f9da760d.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/09df7cd066b37f538abe9de67869ac66.jpeg",
+        "Colonoscopy images/Masks/09df7cd066b37f538abe9de67869ac66.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0a1230b118fa8625605da2023387fd56.jpeg",
+        "Colonoscopy images/Masks/0a1230b118fa8625605da2023387fd56.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0a22abd004c33abf3ae2136cd9dd77ae.jpeg",
+        "Colonoscopy images/Masks/0a22abd004c33abf3ae2136cd9dd77ae.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0a6085835c525af63a987f428c953248.jpeg",
+        "Colonoscopy images/Masks/0a6085835c525af63a987f428c953248.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0aa5f7804c34a359bbb402345d341253.jpeg",
+        "Colonoscopy images/Masks/0aa5f7804c34a359bbb402345d341253.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0adabead1ae730831caf386f6e366943.jpeg",
+        "Colonoscopy images/Masks/0adabead1ae730831caf386f6e366943.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0b1300cb1b387133b51209db6dcdda5c.jpeg",
+        "Colonoscopy images/Masks/0b1300cb1b387133b51209db6dcdda5c.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0b47aa6b7b1fecb5579bf4a5ced589c4.jpeg",
+        "Colonoscopy images/Masks/0b47aa6b7b1fecb5579bf4a5ced589c4.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0b9afea6923881bf04350ffd6984cbcc.jpeg",
+        "Colonoscopy images/Masks/0b9afea6923881bf04350ffd6984cbcc.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0bbd4ce2a1405f7d507592b964b7955a.jpeg",
+        "Colonoscopy images/Masks/0bbd4ce2a1405f7d507592b964b7955a.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0bd55b1393e2ef89424de1556a26c8eb.jpeg",
+        "Colonoscopy images/Masks/0bd55b1393e2ef89424de1556a26c8eb.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0bf0b5633059989805234e222e19769f.jpeg",
+        "Colonoscopy images/Masks/0bf0b5633059989805234e222e19769f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0bfd2a52829ab4e7568cb49a3c530b99.jpeg",
+        "Colonoscopy images/Masks/0bfd2a52829ab4e7568cb49a3c530b99.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0c90be319e1d6d19a707a4fdcc58c9c9.jpeg",
+        "Colonoscopy images/Masks/0c90be319e1d6d19a707a4fdcc58c9c9.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0e1797c77826f9a7021bab9fc7330398.jpeg",
+        "Colonoscopy images/Masks/0e1797c77826f9a7021bab9fc7330398.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0e3b6d0bf0b5633059989805234e222e.jpeg",
+        "Colonoscopy images/Masks/0e3b6d0bf0b5633059989805234e222e.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0e85d064f787d4be168d9510588bec07.jpeg",
+        "Colonoscopy images/Masks/0e85d064f787d4be168d9510588bec07.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0eaf044301ff069910ea2abe3c84417f.jpeg",
+        "Colonoscopy images/Masks/0eaf044301ff069910ea2abe3c84417f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0ebce6347c491b37c8c2e5a64a8bd16f.jpeg",
+        "Colonoscopy images/Masks/0ebce6347c491b37c8c2e5a64a8bd16f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0f1536ad3f6a5664c1711b62f15ec83b.jpeg",
+        "Colonoscopy images/Masks/0f1536ad3f6a5664c1711b62f15ec83b.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0f1f93e952886d1697f8af9b550c1bce.jpeg",
+        "Colonoscopy images/Masks/0f1f93e952886d1697f8af9b550c1bce.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0f618d52893a23c466c16952b6692e6b.jpeg",
+        "Colonoscopy images/Masks/0f618d52893a23c466c16952b6692e6b.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/0fb9af0ef92846b60b1a38a1eecd70eb.jpeg",
+        "Colonoscopy images/Masks/0fb9af0ef92846b60b1a38a1eecd70eb.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/10a38713b2aa6ce8d1cf6644589e532a.jpeg",
+        "Colonoscopy images/Masks/10a38713b2aa6ce8d1cf6644589e532a.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/10b1fcf0625f608b4ce97629ab559b28.jpeg",
+        "Colonoscopy images/Masks/10b1fcf0625f608b4ce97629ab559b28.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/117c6599c6dc55c83a46ce2be9800e6c.jpeg",
+        "Colonoscopy images/Masks/117c6599c6dc55c83a46ce2be9800e6c.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/11c4aa179344271fa54aa1b27918630b.jpeg",
+        "Colonoscopy images/Masks/11c4aa179344271fa54aa1b27918630b.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/11f025ba0e3b6d0bf0b5633059989805.jpeg",
+        "Colonoscopy images/Masks/11f025ba0e3b6d0bf0b5633059989805.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/12295dd542315b4c10e2b0e33fa12bfc.jpeg",
+        "Colonoscopy images/Masks/12295dd542315b4c10e2b0e33fa12bfc.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/124dbc13ca0eaf044301ff069910ea2a.jpeg",
+        "Colonoscopy images/Masks/124dbc13ca0eaf044301ff069910ea2a.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1276e3f404b79b6669075945dc8ec8f0.jpeg",
+        "Colonoscopy images/Masks/1276e3f404b79b6669075945dc8ec8f0.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/130a76ba2ea3ad774c0444718528404f.jpeg",
+        "Colonoscopy images/Masks/130a76ba2ea3ad774c0444718528404f.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/13ccf1f4b331a412fc44655fb51f809d.jpeg",
+        "Colonoscopy images/Masks/13ccf1f4b331a412fc44655fb51f809d.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/145a7d8d3b6c0ed754f28ca745212295.jpeg",
+        "Colonoscopy images/Masks/145a7d8d3b6c0ed754f28ca745212295.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/149398b798da48d679d7c7c8d3d96fb2.jpeg",
+        "Colonoscopy images/Masks/149398b798da48d679d7c7c8d3d96fb2.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/14fc58bdb26679bff55177a34fc01019.jpeg",
+        "Colonoscopy images/Masks/14fc58bdb26679bff55177a34fc01019.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/152b672ab3492fc6239c86a73f97dd52.jpeg",
+        "Colonoscopy images/Masks/152b672ab3492fc6239c86a73f97dd52.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/15334875343f27ebc5d92b9076135d76.jpeg",
+        "Colonoscopy images/Masks/15334875343f27ebc5d92b9076135d76.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1573af7f31f04dc06992d92472facb34.jpeg",
+        "Colonoscopy images/Masks/1573af7f31f04dc06992d92472facb34.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/15a51625559c7e610b1531871f2fd85a.jpeg",
+        "Colonoscopy images/Masks/15a51625559c7e610b1531871f2fd85a.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/15c88d81a4106de1bdb8f4c31cfc1c9d.jpeg",
+        "Colonoscopy images/Masks/15c88d81a4106de1bdb8f4c31cfc1c9d.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/163a745959c03983064a3eb4d49033c0.jpeg",
+        "Colonoscopy images/Masks/163a745959c03983064a3eb4d49033c0.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/16d06046f5d8dd18841d318d1f625619.jpeg",
+        "Colonoscopy images/Masks/16d06046f5d8dd18841d318d1f625619.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/16d4ca6160127cd1d5ff99c267599fc4.jpeg",
+        "Colonoscopy images/Masks/16d4ca6160127cd1d5ff99c267599fc4.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/17287a8aef566999467c2a48847ae839.jpeg",
+        "Colonoscopy images/Masks/17287a8aef566999467c2a48847ae839.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1743c6c08a1d1ad8f2c5f72724e00d82.jpeg",
+        "Colonoscopy images/Masks/1743c6c08a1d1ad8f2c5f72724e00d82.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/177a34fc01019eec999fd84e679b05f9.jpeg",
+        "Colonoscopy images/Masks/177a34fc01019eec999fd84e679b05f9.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/17ba487d4878a9bf8a6f4d4987ea3b4b.jpeg",
+        "Colonoscopy images/Masks/17ba487d4878a9bf8a6f4d4987ea3b4b.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/17f87cf12b41e5e9e5040781d54ffd6a.jpeg",
+        "Colonoscopy images/Masks/17f87cf12b41e5e9e5040781d54ffd6a.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/18d52893a23c466c16952b6692e6be5e.jpeg",
+        "Colonoscopy images/Masks/18d52893a23c466c16952b6692e6be5e.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/18d5401f659532897255ce2dd4ae1b0f.jpeg",
+        "Colonoscopy images/Masks/18d5401f659532897255ce2dd4ae1b0f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/18fa8625605da2023387fd56c04414ea.jpeg",
+        "Colonoscopy images/Masks/18fa8625605da2023387fd56c04414ea.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/193ac8d551c149b60f2965341caf528c.jpeg",
+        "Colonoscopy images/Masks/193ac8d551c149b60f2965341caf528c.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/19410b1fcf0625f608b4ce97629ab559.jpeg",
+        "Colonoscopy images/Masks/19410b1fcf0625f608b4ce97629ab559.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/195f853af7f8a4df1ec859759b7c8743.jpeg",
+        "Colonoscopy images/Masks/195f853af7f8a4df1ec859759b7c8743.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/19d9ae2a9833aa6b8232510939c091a7.jpeg",
+        "Colonoscopy images/Masks/19d9ae2a9833aa6b8232510939c091a7.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1a65d2b46d0a6085835c525af63a987f.jpeg",
+        "Colonoscopy images/Masks/1a65d2b46d0a6085835c525af63a987f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1b248d152b672ab3492fc6239c86a73f.jpeg",
+        "Colonoscopy images/Masks/1b248d152b672ab3492fc6239c86a73f.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1b9298e11bb07c70f3701ae6bcec5dd8.jpeg",
+        "Colonoscopy images/Masks/1b9298e11bb07c70f3701ae6bcec5dd8.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1b976b7a7efc10b1300cb1b387133b51.jpeg",
+        "Colonoscopy images/Masks/1b976b7a7efc10b1300cb1b387133b51.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1c149b60f2965341caf528ca0adabead.jpeg",
+        "Colonoscopy images/Masks/1c149b60f2965341caf528ca0adabead.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1c4aa179344271fa54aa1b27918630bf.jpeg",
+        "Colonoscopy images/Masks/1c4aa179344271fa54aa1b27918630bf.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1c74143555dbf9c4ebafbd9871ca68e0.jpeg",
+        "Colonoscopy images/Masks/1c74143555dbf9c4ebafbd9871ca68e0.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1caf528ca0adabead1ae730831caf386.jpeg",
+        "Colonoscopy images/Masks/1caf528ca0adabead1ae730831caf386.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1cfc1c9d33f3a7b24423d5c7edd71817.jpeg",
+        "Colonoscopy images/Masks/1cfc1c9d33f3a7b24423d5c7edd71817.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1d4dc3ddad260bfcb4443de3ef69f6db.jpeg",
+        "Colonoscopy images/Masks/1d4dc3ddad260bfcb4443de3ef69f6db.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1d54ffd6a8ee924dbd70f618d52893a2.jpeg",
+        "Colonoscopy images/Masks/1d54ffd6a8ee924dbd70f618d52893a2.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1db40939d9a2f94285ef2a23f9dbbb7b.jpeg",
+        "Colonoscopy images/Masks/1db40939d9a2f94285ef2a23f9dbbb7b.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1e555525d4f09ce7270bfec57e441680.jpeg",
+        "Colonoscopy images/Masks/1e555525d4f09ce7270bfec57e441680.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1efbafa0940efd09e941bb189a5dbc20.jpeg",
+        "Colonoscopy images/Masks/1efbafa0940efd09e941bb189a5dbc20.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1f3cf29dff2864e2d89df283ecd59f91.jpeg",
+        "Colonoscopy images/Masks/1f3cf29dff2864e2d89df283ecd59f91.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1f625619d9ae2a9833aa6b8232510939.jpeg",
+        "Colonoscopy images/Masks/1f625619d9ae2a9833aa6b8232510939.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1f659532897255ce2dd4ae1b0f124dbc.jpeg",
+        "Colonoscopy images/Masks/1f659532897255ce2dd4ae1b0f124dbc.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1fcf0625f608b4ce97629ab559b28f39.jpeg",
+        "Colonoscopy images/Masks/1fcf0625f608b4ce97629ab559b28f39.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1fd8bbf118acd7936140a2d5fc1443c4.jpeg",
+        "Colonoscopy images/Masks/1fd8bbf118acd7936140a2d5fc1443c4.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1ff069910ea2abe3c84417fda8019410.jpeg",
+        "Colonoscopy images/Masks/1ff069910ea2abe3c84417fda8019410.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/1ffb963e1713a8763b8318ecf467d7ad.jpeg",
+        "Colonoscopy images/Masks/1ffb963e1713a8763b8318ecf467d7ad.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/20362736055807907941a8490fd7df8e.jpeg",
+        "Colonoscopy images/Masks/20362736055807907941a8490fd7df8e.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/21fbbec5a215f0f235a823d5349ab65a.jpeg",
+        "Colonoscopy images/Masks/21fbbec5a215f0f235a823d5349ab65a.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/222e19769fa2d37d32780fd497e1c0e9.jpeg",
+        "Colonoscopy images/Masks/222e19769fa2d37d32780fd497e1c0e9.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/225024da63fb9a76b92633408da4bcab.jpeg",
+        "Colonoscopy images/Masks/225024da63fb9a76b92633408da4bcab.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/229db65646d81526eb91e2da9e6afaef.jpeg",
+        "Colonoscopy images/Masks/229db65646d81526eb91e2da9e6afaef.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/229fe1bce59ddf92e76900d229db6564.jpeg",
+        "Colonoscopy images/Masks/229fe1bce59ddf92e76900d229db6564.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/22af6b2da43f71d4dc3ddad260bfcb44.jpeg",
+        "Colonoscopy images/Masks/22af6b2da43f71d4dc3ddad260bfcb44.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/23099dd2eedba39099848c4425bf33b9.jpeg",
+        "Colonoscopy images/Masks/23099dd2eedba39099848c4425bf33b9.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/230b118fa8625605da2023387fd56c04.jpeg",
+        "Colonoscopy images/Masks/230b118fa8625605da2023387fd56c04.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2315b4c10e2b0e33fa12bfcd6da15fc6.jpeg",
+        "Colonoscopy images/Masks/2315b4c10e2b0e33fa12bfcd6da15fc6.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/23387fd56c04414eaa922bca73d5379c.jpeg",
+        "Colonoscopy images/Masks/23387fd56c04414eaa922bca73d5379c.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2345d341253851bc866ebe4d18d5401f.jpeg",
+        "Colonoscopy images/Masks/2345d341253851bc866ebe4d18d5401f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/234e222e19769fa2d37d32780fd497e1.jpeg",
+        "Colonoscopy images/Masks/234e222e19769fa2d37d32780fd497e1.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/23c4eaf3372eae567c94ea04c603f909.jpeg",
+        "Colonoscopy images/Masks/23c4eaf3372eae567c94ea04c603f909.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/24423d5c7edd718176ef3065837ced5c.jpeg",
+        "Colonoscopy images/Masks/24423d5c7edd718176ef3065837ced5c.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/24dbc13ca0eaf044301ff069910ea2ab.jpeg",
+        "Colonoscopy images/Masks/24dbc13ca0eaf044301ff069910ea2ab.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/24dbd70f618d52893a23c466c16952b6.jpeg",
+        "Colonoscopy images/Masks/24dbd70f618d52893a23c466c16952b6.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/24e00d827b8bcf15050fb9af0ef92846.jpeg",
+        "Colonoscopy images/Masks/24e00d827b8bcf15050fb9af0ef92846.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2510939c091a7915c942b2f94722af7f.jpeg",
+        "Colonoscopy images/Masks/2510939c091a7915c942b2f94722af7f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/251eedf26ed414a42bec7a5fdbaf2760.jpeg",
+        "Colonoscopy images/Masks/251eedf26ed414a42bec7a5fdbaf2760.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/253851bc866ebe4d18d5401f65953289.jpeg",
+        "Colonoscopy images/Masks/253851bc866ebe4d18d5401f65953289.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/255ce2dd4ae1b0f124dbc13ca0eaf044.jpeg",
+        "Colonoscopy images/Masks/255ce2dd4ae1b0f124dbc13ca0eaf044.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/25605da2023387fd56c04414eaa922bc.jpeg",
+        "Colonoscopy images/Masks/25605da2023387fd56c04414eaa922bc.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/25af63a987f428c953248704ccdc265a.jpeg",
+        "Colonoscopy images/Masks/25af63a987f428c953248704ccdc265a.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/26231002ec4a1fe748f3085f1ce88cbd.jpeg",
+        "Colonoscopy images/Masks/26231002ec4a1fe748f3085f1ce88cbd.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/269959350e7998934d417cb2eb1ef57a.jpeg",
+        "Colonoscopy images/Masks/269959350e7998934d417cb2eb1ef57a.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/26a6f23c5d6d5f35f66adf95b204727f.jpeg",
+        "Colonoscopy images/Masks/26a6f23c5d6d5f35f66adf95b204727f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/26f9a7021bab9fc7330398846f67b5df.jpeg",
+        "Colonoscopy images/Masks/26f9a7021bab9fc7330398846f67b5df.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/276a476420655433a925101416ae101f.jpeg",
+        "Colonoscopy images/Masks/276a476420655433a925101416ae101f.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/276e3f404b79b6669075945dc8ec8f02.jpeg",
+        "Colonoscopy images/Masks/276e3f404b79b6669075945dc8ec8f02.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2780fd497e1c0e9082ea2c193ac8d551.jpeg",
+        "Colonoscopy images/Masks/2780fd497e1c0e9082ea2c193ac8d551.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2829ab4e7568cb49a3c530b99ec16e8b.jpeg",
+        "Colonoscopy images/Masks/2829ab4e7568cb49a3c530b99ec16e8b.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/284b8e6953ad88e16d4ca6160127cd1d.jpeg",
+        "Colonoscopy images/Masks/284b8e6953ad88e16d4ca6160127cd1d.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/28559ba2bbb610fe8c30d660e70f44c2.jpeg",
+        "Colonoscopy images/Masks/28559ba2bbb610fe8c30d660e70f44c2.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2864e2d89df283ecd59f911f025ba0e3.jpeg",
+        "Colonoscopy images/Masks/2864e2d89df283ecd59f911f025ba0e3.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/28ca0adabead1ae730831caf386f6e36.jpeg",
+        "Colonoscopy images/Masks/28ca0adabead1ae730831caf386f6e36.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/28f39a546f6eeb0a13b346f09286c94c.jpeg",
+        "Colonoscopy images/Masks/28f39a546f6eeb0a13b346f09286c94c.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/296cc5cfd263f1f90be28799235026b3.jpeg",
+        "Colonoscopy images/Masks/296cc5cfd263f1f90be28799235026b3.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/298e11bb07c70f3701ae6bcec5dd8e74.jpeg",
+        "Colonoscopy images/Masks/298e11bb07c70f3701ae6bcec5dd8e74.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2a23f9dbbb7bb39ba25b3887ffdc8d09.jpeg",
+        "Colonoscopy images/Masks/2a23f9dbbb7bb39ba25b3887ffdc8d09.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2a48e11d579d903c7d178f6ea0ad83b8.jpeg",
+        "Colonoscopy images/Masks/2a48e11d579d903c7d178f6ea0ad83b8.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2a52829ab4e7568cb49a3c530b99ec16.jpeg",
+        "Colonoscopy images/Masks/2a52829ab4e7568cb49a3c530b99ec16.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2ab3492fc6239c86a73f97dd5277dd17.jpeg",
+        "Colonoscopy images/Masks/2ab3492fc6239c86a73f97dd5277dd17.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2abd004c33abf3ae2136cd9dd77aef5e.jpeg",
+        "Colonoscopy images/Masks/2abd004c33abf3ae2136cd9dd77aef5e.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2abe3c84417fda8019410b1fcf0625f6.jpeg",
+        "Colonoscopy images/Masks/2abe3c84417fda8019410b1fcf0625f6.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2af6b2da43f71d4dc3ddad260bfcb444.jpeg",
+        "Colonoscopy images/Masks/2af6b2da43f71d4dc3ddad260bfcb444.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2b4eebc9e5a87e443434ac60af15041b.jpeg",
+        "Colonoscopy images/Masks/2b4eebc9e5a87e443434ac60af15041b.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2b964b7955a1d7a36ccf1225024da63f.jpeg",
+        "Colonoscopy images/Masks/2b964b7955a1d7a36ccf1225024da63f.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2bb3c7abacdbd7e6afd56ea7bc4ba26c.jpeg",
+        "Colonoscopy images/Masks/2bb3c7abacdbd7e6afd56ea7bc4ba26c.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2be8379499640676289b3e732adb4c5d.jpeg",
+        "Colonoscopy images/Masks/2be8379499640676289b3e732adb4c5d.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2c41545ba55aadaa77712a48e11d579d.jpeg",
+        "Colonoscopy images/Masks/2c41545ba55aadaa77712a48e11d579d.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2cbbcfa4baf3866269959350e7998934.jpeg",
+        "Colonoscopy images/Masks/2cbbcfa4baf3866269959350e7998934.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2d6157edc3d82df22c41b503dc19ce17.jpeg",
+        "Colonoscopy images/Masks/2d6157edc3d82df22c41b503dc19ce17.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2d95e6c487ffa651b4774229fe1bce59.jpeg",
+        "Colonoscopy images/Masks/2d95e6c487ffa651b4774229fe1bce59.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2da9e6afaef7fdb2d45b21960c94b0aa.jpeg",
+        "Colonoscopy images/Masks/2da9e6afaef7fdb2d45b21960c94b0aa.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2eb9d32a3dc907950289e976c7250de9.jpeg",
+        "Colonoscopy images/Masks/2eb9d32a3dc907950289e976c7250de9.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2f514f401ea0bd55b1393e2ef89424de.jpeg",
+        "Colonoscopy images/Masks/2f514f401ea0bd55b1393e2ef89424de.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2f94722af7f63cd771e7606cb09d1fc6.jpeg",
+        "Colonoscopy images/Masks/2f94722af7f63cd771e7606cb09d1fc6.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/2fa602bb3c7abacdbd7e6afd56ea7bc4.jpeg",
+        "Colonoscopy images/Masks/2fa602bb3c7abacdbd7e6afd56ea7bc4.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/301ff069910ea2abe3c84417fda80194.jpeg",
+        "Colonoscopy images/Masks/301ff069910ea2abe3c84417fda80194.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/305af926a6f23c5d6d5f35f66adf95b2.jpeg",
+        "Colonoscopy images/Masks/305af926a6f23c5d6d5f35f66adf95b2.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/30831caf386f6e366943c17f87cf12b4.jpeg",
+        "Colonoscopy images/Masks/30831caf386f6e366943c17f87cf12b4.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/309817287a8aef566999467c2a48847a.jpeg",
+        "Colonoscopy images/Masks/309817287a8aef566999467c2a48847a.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/309d1dff09b8405734fbeedd0f9da760.jpeg",
+        "Colonoscopy images/Masks/309d1dff09b8405734fbeedd0f9da760.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/30ed08f25358edf70899344dae61a5f5.jpeg",
+        "Colonoscopy images/Masks/30ed08f25358edf70899344dae61a5f5.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/31871f2fd85a04faeeb2b53579739530.jpeg",
+        "Colonoscopy images/Masks/31871f2fd85a04faeeb2b53579739530.jpeg",
+        "Colonoscopy image showing both neoplastic and non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/32897255ce2dd4ae1b0f124dbc13ca0e.jpeg",
+        "Colonoscopy images/Masks/32897255ce2dd4ae1b0f124dbc13ca0e.jpeg",
+        "Colonoscopy image showing non-neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/3297c819c908954bb13d3727c7e5e106.jpeg",
+        "Colonoscopy images/Masks/3297c819c908954bb13d3727c7e5e106.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/33059989805234e222e19769fa2d37d3.jpeg",
+        "Colonoscopy images/Masks/33059989805234e222e19769fa2d37d3.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/33408da4bcab47c3fb256f174ae992b9.jpeg",
+        "Colonoscopy images/Masks/33408da4bcab47c3fb256f174ae992b9.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/337948a41964c1d4f50a5f3601ad4f13.jpeg",
+        "Colonoscopy images/Masks/337948a41964c1d4f50a5f3601ad4f13.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],
+    [
+        "Colonoscopy images/Images/3387fd56c04414eaa922bca73d5379c7.jpeg",
+        "Colonoscopy images/Masks/3387fd56c04414eaa922bca73d5379c7.jpeg",
+        "Colonoscopy image showing neoplastic polyps."
+    ],

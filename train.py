@@ -1,7 +1,6 @@
 import pyrootutils
-import copy
 import os
-from typing import List, Tuple
+from typing import List, Optional, Tuple
 
 import hydra
 import pytorch_lightning as pl
@@ -9,7 +8,7 @@ import torch
 import torchvision
 import torchvision.transforms.functional as TF
 from omegaconf import DictConfig
-from pytorch_lightning import LightningDataModule, LightningModule, Trainer
+from pytorch_lightning import Callback, LightningDataModule, LightningModule, Trainer
 from pytorch_lightning.loggers.logger import Logger
 
 from src import utils
@@ -20,13 +19,11 @@ log = utils.get_pylogger(__name__)
 
 
 @utils.task_wrapper
-def evaluate(cfg: DictConfig) -> Tuple[dict, dict]:
+def train(cfg: DictConfig) -> Tuple[dict, dict]:
+
     # set seed for random number generators in pytorch, numpy and python.random
     if cfg.get("seed"):
         pl.seed_everything(cfg.seed, workers=True)
-
-    if cfg.use_ckpt:
-        assert cfg.ckpt_path, "You must provide a checkpoint path when `use_ckpt=True`"
 
     log.info(f"Instantiating datamodule <{cfg.datamodule._target_}>")
     datamodule: LightningDataModule = hydra.utils.instantiate(cfg.datamodule)
@@ -38,16 +35,22 @@ def evaluate(cfg: DictConfig) -> Tuple[dict, dict]:
     # Comment the line below for torch version < 2.X
     # model = model.compile()
 
+    log.info("Instantiating callbacks...")
+    callbacks: List[Callback] = utils.instantiate_callbacks(cfg.get("callbacks"))
+
     log.info("Instantiating loggers...")
     logger: List[Logger] = utils.instantiate_loggers(cfg.get("logger"))
 
     log.info(f"Instantiating trainer <{cfg.trainer._target_}>")
-    trainer: Trainer = hydra.utils.instantiate(cfg.trainer, logger=logger)
+    trainer: Trainer = hydra.utils.instantiate(
+        cfg.trainer, callbacks=callbacks, logger=logger
+    )
 
     object_dict = {
         "cfg": cfg,
         "datamodule": datamodule,
         "model": model,
+        "callbacks": callbacks,
         "logger": logger,
         "trainer": trainer,
     }
@@ -56,23 +59,33 @@ def evaluate(cfg: DictConfig) -> Tuple[dict, dict]:
         log.info("Logging hyperparameters!")
         utils.log_hyperparameters(object_dict)
 
-    if cfg.get("task_name") == "eval":
-        # Logs eval metrics for testing pipeline
+    if cfg.get("train"):
+        log.info("Starting training!")
+        # TODO: Analyze
+        # datamodule.prepare_data()
+        # datamodule.setup()
+        # exit()
+        trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+
+    train_metrics = trainer.callback_metrics
+
+    if cfg.get("test"):
         log.info("Starting testing!")
-        trainer.test(
-            model=model,
-            datamodule=datamodule,
-            ckpt_path=cfg.ckpt_path,
-        )
+        ckpt_path = trainer.checkpoint_callback.best_model_path
+        if ckpt_path == "":
+            log.warning("Best ckpt not found! Using current weights for testing...")
+            ckpt_path = None
+        trainer.test(model=model, datamodule=datamodule, ckpt_path=ckpt_path)
+        log.info(f"Best ckpt path: {ckpt_path}")
 
         # Writes output masks to files
         if cfg.get("output_masks_dir"):
             output_masks_dir = cfg.get("output_masks_dir")
-            log.info("Generating masks of test dataset")
+
+            log.info(f"Generating masks of test dataset")
             pred_outputs = trainer.predict(
                 model=model,
-                dataloaders=datamodule,
-                ckpt_path=cfg.ckpt_path,
+                dataloaders=datamodule.test_dataloader(),
             )
 
             preds, mask_names, heights, widths, datasets = [], [], [], [], []
@@ -125,65 +138,27 @@ def evaluate(cfg: DictConfig) -> Tuple[dict, dict]:
                         ),
                         file_path,
                     )
-    # Predict the output masks and save in a directory
-    elif cfg.get("task_name") == "pred":
-        if cfg.get("output_masks_dir"):
-            output_masks_dir = cfg.get("output_masks_dir")
 
-            log.info(f"Generating masks of test dataset")
-            
-            pred_outputs = trainer.predict(
-                model=model,
-                dataloaders=datamodule,
-                ckpt_path=cfg.ckpt_path,
-            )
+    test_metrics = trainer.callback_metrics
 
-            preds, mask_names, heights, widths = [], [], [], []
-            for p in pred_outputs:
-                preds += list(p["preds"])
-                mask_names += list(p["mask_names"])
-                heights += list(p["heights"])
-                widths += list(p["widths"])
-
-            log.info(f"Saving prediction masks in directory {output_masks_dir}")
-
-            # Create directory if it doesn't exist and if exists clear the directory
-            if not os.path.exists(output_masks_dir):
-                # Recursively create directory
-                os.makedirs(output_masks_dir, exist_ok=True)
-            else:
-                # Clear the directory
-                for f in os.listdir(output_masks_dir):
-                    os.remove(os.path.join(output_masks_dir, f))
-
-            for pred, mask_name, h, w in zip(preds, mask_names, heights, widths):
-                file_path = f"{output_masks_dir}/{mask_name}"
-                os.makedirs(os.path.dirname(file_path), exist_ok=True)
-                torchvision.utils.save_image(
-                    TF.resize(
-                        pred.double(),
-                        size=[h, w],
-                        interpolation=TF.InterpolationMode.NEAREST_EXACT,
-                    ),
-                    file_path,
-                )
-        else:
-            raise ValueError(
-                f"Expected value at output_masks_dir, but got {cfg.get('output_masks_dir')} instead."
-            )
-    else:
-        raise ValueError(
-            f"Expected task_name to be either 'eval' or 'pred', but got {cfg.get('task_name')} instead."
-        )
-
-    metric_dict = trainer.callback_metrics
+    # merge train and test metrics
+    metric_dict = {**train_metrics, **test_metrics}
 
     return metric_dict, object_dict
 
 
-@hydra.main(version_base="1.2", config_path=root / "configs", config_name="eval.yaml")
-def main(cfg: DictConfig) -> None:
-    evaluate(cfg)
+@hydra.main(version_base="1.2", config_path=root / "configs", config_name="train.yaml")
+def main(cfg: DictConfig) -> Optional[float]:
+    # train the model
+    metric_dict, _ = train(cfg)
+
+    # safely retrieve metric value for hydra-based hyperparameter optimization
+    metric_value = utils.get_metric_value(
+        metric_dict=metric_dict, metric_name=cfg.get("optimized_metric")
+    )
+
+    # return optimized metric
+    return metric_value
 
 
 if __name__ == "__main__":
