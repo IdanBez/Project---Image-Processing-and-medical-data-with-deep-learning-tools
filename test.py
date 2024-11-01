@@ -19,171 +19,131 @@ torch.set_float32_matmul_precision("medium")
 log = utils.get_pylogger(__name__)
 
 
-@utils.task_wrapper
-def evaluate(cfg: DictConfig) -> Tuple[dict, dict]:
-    # set seed for random number generators in pytorch, numpy and python.random
+def save_masks(output_dir, predictions, is_evaluation=False):
+    preds, filenames, heights, widths, datasets = [], [], [], [], []
+    
+    for batch in predictions:
+        preds.extend(list(batch["preds"]))
+        filenames.extend(list(batch["mask_names"]))
+        heights.extend(list(batch["heights"]))
+        widths.extend(list(batch["widths"]))
+        if "dataset" in batch:
+            datasets.extend(list(batch["dataset"]))
+
+    log.info(f"Saving masks to directory {output_dir}")
+    os.makedirs(output_dir, exist_ok=True)
+
+    if not is_evaluation:
+        for f in os.listdir(output_dir):
+            os.remove(os.path.join(output_dir, f))
+
+    if preds[0].shape[0] > 1 and len(datasets) > 0:
+        save_multiclass_masks(output_dir, preds, filenames, heights, widths, datasets)
+    else:
+        save_binary_masks(output_dir, preds, filenames, heights, widths)
+
+
+def save_multiclass_masks(output_dir, preds, filenames, heights, widths, datasets):
+    for pred, filename, h, w, dataset in zip(preds, filenames, heights, widths, datasets):
+        for cls, p in zip(utils.CLASS_NAMES, pred):
+            path = os.path.join(output_dir, dataset, cls, filename)
+            save_single_mask(path, p.unsqueeze(0), h, w)
+
+
+def save_binary_masks(output_dir, preds, filenames, heights, widths):
+    for pred, filename, h, w in zip(preds, filenames, heights, widths):
+        path = os.path.join(output_dir, filename)
+        save_single_mask(path, pred, h, w)
+
+
+def save_single_mask(path, pred, height, width):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    resized = TF.resize(
+        pred.double(),
+        size=[height, width],
+        interpolation=TF.InterpolationMode.NEAREST_EXACT,
+    )
+    torchvision.utils.save_image(resized, path)
+
+
+def setup_pipeline(cfg):
+    if cfg.use_ckpt and not cfg.ckpt_path:
+        raise ValueError("Checkpoint path required when use_ckpt=True")
+
     if cfg.get("seed"):
         pl.seed_everything(cfg.seed, workers=True)
 
-    if cfg.use_ckpt:
-        assert cfg.ckpt_path, "You must provide a checkpoint path when `use_ckpt=True`"
-
     log.info(f"Instantiating datamodule <{cfg.datamodule._target_}>")
-    datamodule: LightningDataModule = hydra.utils.instantiate(cfg.datamodule)
+    datamodule = hydra.utils.instantiate(cfg.datamodule)
 
     log.info(f"Instantiating model <{cfg.model._target_}>")
-    model: LightningModule = hydra.utils.instantiate(cfg.model)
-
-    # Torch compile() with Pytorch 2.X
-    # Comment the line below for torch version < 2.X
-    # model = model.compile()
+    model = hydra.utils.instantiate(cfg.model)
 
     log.info("Instantiating loggers...")
-    logger: List[Logger] = utils.instantiate_loggers(cfg.get("logger"))
+    loggers = utils.instantiate_loggers(cfg.get("logger"))
 
     log.info(f"Instantiating trainer <{cfg.trainer._target_}>")
-    trainer: Trainer = hydra.utils.instantiate(cfg.trainer, logger=logger)
+    trainer = hydra.utils.instantiate(cfg.trainer, logger=loggers)
 
-    object_dict = {
+    return datamodule, model, loggers, trainer
+
+
+@utils.task_wrapper
+def run_evaluation(cfg: DictConfig) -> Tuple[dict, dict]:
+    datamodule, model, loggers, trainer = setup_pipeline(cfg)
+
+    components = {
         "cfg": cfg,
         "datamodule": datamodule,
         "model": model,
-        "logger": logger,
+        "logger": loggers,
         "trainer": trainer,
     }
 
-    if logger:
+    if loggers:
         log.info("Logging hyperparameters!")
-        utils.log_hyperparameters(object_dict)
+        utils.log_hyperparameters(components)
 
     if cfg.get("task_name") == "eval":
-        # Logs eval metrics for testing pipeline
-        log.info("Starting testing!")
-        trainer.test(
+        run_eval_task(cfg, trainer, model, datamodule)
+    elif cfg.get("task_name") == "pred":
+        run_pred_task(cfg, trainer, model, datamodule)
+    else:
+        raise ValueError(f"Task must be 'eval' or 'pred', got {cfg.get('task_name')}")
+
+    return trainer.callback_metrics, components
+
+
+def run_eval_task(cfg, trainer, model, datamodule):
+    log.info("Starting testing!")
+    trainer.test(model=model, datamodule=datamodule, ckpt_path=cfg.ckpt_path)
+
+    if cfg.get("output_masks_dir"):
+        log.info("Generating evaluation masks")
+        predictions = trainer.predict(
             model=model,
-            datamodule=datamodule,
+            dataloaders=datamodule,
             ckpt_path=cfg.ckpt_path,
         )
+        save_masks(cfg.output_masks_dir, predictions, is_evaluation=True)
 
-        # Writes output masks to files
-        if cfg.get("output_masks_dir"):
-            output_masks_dir = cfg.get("output_masks_dir")
-            log.info("Generating masks of test dataset")
-            pred_outputs = trainer.predict(
-                model=model,
-                dataloaders=datamodule,
-                ckpt_path=cfg.ckpt_path,
-            )
 
-            preds, mask_names, heights, widths, datasets = [], [], [], [], []
-            for p in pred_outputs:
-                preds += list(p["preds"])
-                mask_names += list(p["mask_names"])
-                heights += list(p["heights"])
-                widths += list(p["widths"])
-                if "dataset" in p:
-                    datasets += list(p["dataset"])
+def run_pred_task(cfg, trainer, model, datamodule):
+    if not cfg.get("output_masks_dir"):
+        raise ValueError("output_masks_dir required for prediction task")
 
-            log.info(f"Saving the generated masks in directory {output_masks_dir}")
-
-            # Create directory if it doesn't exist and if exists clear the directory
-            if not os.path.exists(output_masks_dir):
-                # Recursively create directory
-                os.makedirs(output_masks_dir, exist_ok=True)
-            else:
-                # Clear the directory
-                # for f in os.listdir(output_masks_dir):
-                #     os.remove(os.path.join(output_masks_dir, f))
-                pass
-
-            if preds[0].shape[0] > 1 and len(datasets) > 0:
-                for pred, mask_name, h, w, dataset in zip(
-                    preds, mask_names, heights, widths, datasets
-                ):
-                    for cls, p in zip(utils.CLASS_NAMES, pred):
-                        file_path = os.path.join(
-                            output_masks_dir, dataset, cls, mask_name
-                        )
-                        os.makedirs(os.path.dirname(file_path), exist_ok=True)
-                        torchvision.utils.save_image(
-                            TF.resize(
-                                p.unsqueeze(0).double(),
-                                size=[h, w],
-                                interpolation=TF.InterpolationMode.NEAREST_EXACT,
-                            ),
-                            file_path,
-                        )
-            else:
-                for pred, mask_name, h, w in zip(preds, mask_names, heights, widths):
-                    file_path = os.path.join(output_masks_dir, mask_name)
-                    os.makedirs(os.path.dirname(file_path), exist_ok=True)
-                    torchvision.utils.save_image(
-                        TF.resize(
-                            pred.double(),
-                            size=[h, w],
-                            interpolation=TF.InterpolationMode.NEAREST_EXACT,
-                        ),
-                        file_path,
-                    )
-    # Predict the output masks and save in a directory
-    elif cfg.get("task_name") == "pred":
-        if cfg.get("output_masks_dir"):
-            output_masks_dir = cfg.get("output_masks_dir")
-
-            log.info(f"Generating masks of test dataset")
-            
-            pred_outputs = trainer.predict(
-                model=model,
-                dataloaders=datamodule,
-                ckpt_path=cfg.ckpt_path,
-            )
-
-            preds, mask_names, heights, widths = [], [], [], []
-            for p in pred_outputs:
-                preds += list(p["preds"])
-                mask_names += list(p["mask_names"])
-                heights += list(p["heights"])
-                widths += list(p["widths"])
-
-            log.info(f"Saving prediction masks in directory {output_masks_dir}")
-
-            # Create directory if it doesn't exist and if exists clear the directory
-            if not os.path.exists(output_masks_dir):
-                # Recursively create directory
-                os.makedirs(output_masks_dir, exist_ok=True)
-            else:
-                # Clear the directory
-                for f in os.listdir(output_masks_dir):
-                    os.remove(os.path.join(output_masks_dir, f))
-
-            for pred, mask_name, h, w in zip(preds, mask_names, heights, widths):
-                file_path = f"{output_masks_dir}/{mask_name}"
-                os.makedirs(os.path.dirname(file_path), exist_ok=True)
-                torchvision.utils.save_image(
-                    TF.resize(
-                        pred.double(),
-                        size=[h, w],
-                        interpolation=TF.InterpolationMode.NEAREST_EXACT,
-                    ),
-                    file_path,
-                )
-        else:
-            raise ValueError(
-                f"Expected value at output_masks_dir, but got {cfg.get('output_masks_dir')} instead."
-            )
-    else:
-        raise ValueError(
-            f"Expected task_name to be either 'eval' or 'pred', but got {cfg.get('task_name')} instead."
-        )
-
-    metric_dict = trainer.callback_metrics
-
-    return metric_dict, object_dict
+    log.info("Generating prediction masks")
+    predictions = trainer.predict(
+        model=model,
+        dataloaders=datamodule,
+        ckpt_path=cfg.ckpt_path,
+    )
+    save_masks(cfg.output_masks_dir, predictions)
 
 
 @hydra.main(version_base="1.2", config_path=root / "configs", config_name="eval.yaml")
 def main(cfg: DictConfig) -> None:
-    evaluate(cfg)
+    run_evaluation(cfg)
 
 
 if __name__ == "__main__":
