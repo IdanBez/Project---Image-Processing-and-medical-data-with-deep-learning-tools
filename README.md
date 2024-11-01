@@ -42,6 +42,6 @@ We initially aimed to modify the CRIS model by replacing its Vision and Text Enc
 
 ## Test and Finetuning
 
-To perform tests or finetune, you can use the provided test/finetune scripts. These scripts will start the fine-tuning or test process.
+To perform tests or finetune, you can use the provided test/train scripts. These scripts will start the fine-tuning or test process.
 
 
