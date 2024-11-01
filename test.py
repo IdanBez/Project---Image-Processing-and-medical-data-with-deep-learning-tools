@@ -2,7 +2,6 @@ import pyrootutils
 import copy
 import os
 from typing import List, Tuple
-
 import hydra
 import pytorch_lightning as pl
 import torch
@@ -11,7 +10,6 @@ import torchvision.transforms.functional as TF
 from omegaconf import DictConfig
 from pytorch_lightning import LightningDataModule, LightningModule, Trainer
 from pytorch_lightning.loggers.logger import Logger
-
 from src import utils
 
 torch.set_float32_matmul_precision("medium")
